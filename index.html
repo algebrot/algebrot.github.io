@@ -9,47 +9,18 @@
   <head>
       <title>ccoleman at ucsd dot edu</title>
       <link rel="stylesheet" href="styles/styles.css" />
-
-    <!--LINK JQUERY-->
-    <script type="text/javascript" src="jquery-3.3.1.js"></script>
-    <!--PERSONAL SCRIPT JavaScript-->
-    <script type="text/javascript">
-      $("#canvas").click(function(e){
-        getPosition(e); 
-      });
-
-      var pointSize = 3;
-
-      function getPosition(event){
-          var rect = canvas.getBoundingClientRect();
-          var x = event.clientX - rect.left;
-          var y = event.clientY - rect.top;
-            
-          drawCoordinates(x,y);
-      }
-
-      function drawCoordinates(x,y){	
-          var ctx = document.getElementById("canvas").getContext("2d");
-
-          ctx.fillStyle = "#ff2626"; // Red color
-
-        ctx.beginPath();
-        ctx.arc(x, y, pointSize, 0, Math.PI * 2, true);
-        ctx.fill();
-      }
-     </script>
+      <script src="javascript/index.js"></script>  
   </head>
 
-  <div class="wrapper"> 
-    <body>
+  <div class="wrapper">
+    <body> 
       <p><font size="+4"><b>Cora Coleman</b></font></p>
-      <p>
+      <p id="referencePt">
         I am a rising second year CSE PhD student, advised by Dr. William Griswold at the University of California, San Diego. 
         My research interest areas include Software Engineering and Human-Computer Interaction. 
         I graduated with a BA in Computer Science from New College of Florida in 2018.
         On this page I've gathered my current and past research projects and detailed relevant opportunities and adventures.  
       </p>
-    
     </br >
       <p><font size="+2"><b>What's New?</b></font></p>
         <p><b>Fall</b>, Upcoming</p>
@@ -74,7 +45,7 @@
       <section id="section2" data-anchor="projects">
       <p><font size="+2"><b>Research Projects</b></font></p>
         <p><b>Invariants Plugin, Winter 2019&#8212;Present</b></p>
-          <p>IntelliJ plugin that displays invariants and their changes at the method level. Led by Dr. William Griswold.</p>
+          <p>IntelliJ plugin that displays invariant properties and their changes at the method level. Led by Dr. William Griswold.</p>
         <p><b>Synthesis of Layout Constraints, Fall 2018&#8212;Present</b></p>
           <p>An interactive constraint-based layout tool for synthesizing generalizable layouts from few examples. Led by Dr. Nadia Polikarpova.</p>
       </section>
@@ -88,9 +59,10 @@
         <p><a href="https://www.sciencebase.gov/catalog/item/58116450e4b0f497e79a553d" style="text-decoration:none"><b>Saginaw Bay Restoration Assessment Degree Flowlines</b></a></p>
         <p>Cora Coleman, Justin Saarinen <i>USGS 2016</i></p>
       </section>
+    </canvas>
     </body>
   </div>
-  <canvas id="canvas" width="690" height="651"></canvas>
+  
   </br >
   </br >
   </br >

@@ -1,0 +1,61 @@
+.wrapper {
+    width: relative;
+    margin-right: 130px;
+    position: relative;
+    margin-left:150px;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0px;
+    display: block;
+    width: 100px;
+    padding: 30px;
+    height: 100px;
+    z-index: 100;
+    color:black;
+}
+
+nav a {
+    font-family: Arial;
+    color:black;    
+    padding: 2px; 
+    display: block;
+    float: left;
+    text-decoration: none;
+    margin-right: 4px;
+    width: 100%;
+	font-size:18px;
+}
+
+nav a:hover,
+nav a.active {
+    color:midnightblue; 
+}
+
+.fixed {
+    position: fixed;
+    top: 0
+} 
+
+p {
+    font-family: "Arial";
+}
+
+a {
+    color:black;
+}
+    
+a:link {
+    color:black;
+}
+
+a:visited {
+    color:grey;
+}
+
+a:hover {
+    color:midnightblue;
+}

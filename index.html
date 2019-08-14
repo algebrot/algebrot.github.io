@@ -1,155 +1,64 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: "Lato", sans-serif;
-}
 
-.sidenav {
-  width: 130px;
-  position: fixed;
-  z-index: 1;
-  top: 40px;
-  left: 10px;
-  background: #F7DAD4;
-  overflow-x: hidden;
-  padding: 1px 0;
-}
+  <nav>
+      <a href="#section1" data-scroll="new">What's New</a>
+            
+      <a href="#section2" data-scroll="projects">Research Projects</a>
+            
+      <a href="#section3" data-scroll="pubs">Publications</a>
+  </nav>
+  
+  <head>
+      <title>ccoleman at ucsd dot edu</title>
+      <link rel="stylesheet" href="styles/styles.css" />
+  </head>
 
-.sidenav2 {
-  width: 130px;
-  position: fixed;
-  z-index: 1;
-  top: 70px;
-  left: 10px;
-  background: #FD3A0F;
-  overflow-x: hidden;
-  padding: 1px 0;
-}
+  <div class="wrapper">
+        
+    <body>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <p style="font-family: Arial Bold"> <font size="+4">Cora Coleman</font></p>
+      <p>I am a rising second year CSE PhD student at UCSD, advised by Dr. William Griswold. My research interest areas include Software Engineering and Human-Computer Interaction.</p>
 
-.sidenav3 {
-  width: 130px;
-  position: fixed;
-  z-index: 1;
-  top: 100px;
-  left: 10px;
-  background: #E4F132;
-  overflow-x: hidden;
-  padding: 1px 0;
-}
+      <br />
+      <br />
+      <section id="section1" data-anchor="new">
+      <p style="font-family: Arial Bold"> <font size="+2">What's New?</font></p>
+        <p style="font-family: Arial Bold">Summer</p>
+          <p>July 5&#8212;12 I was a student volunteer at the 2019 ESRI User Conference in San Diego, California.</p>
+        <p style="font-family: Arial Bold">Fall</p>
+          <p>During this quarter I will be the TA for CSE 210, taught by Dr. William Griswold.</p> 
+      </section>
 
-.sidenav4 {
-  width: 130px;
-  position: fixed;
-  z-index: 1;
-  top: 130px;
-  left: 10px;
-  background: #183BF0;
-  overflow-x: hidden;
-  padding: 1px 0;
-}
+      <br />
+      <br />
+      <section id="section2" data-anchor="projects">
+      <p style="font-family: Arial Bold"> <font size="+2">Research Projects</font></p>
+        <p style="font-family: Arial Bold">Invariants Plugin, Winter 2019&#8212;Present</p>
+          <p>IntelliJ plugin that displays invariants and their changes at the method level. Led by Dr. William Griswold.</p>
+        <p style="font-family: Arial Bold">Deductive Synthesis of Layout Constraints, Fall 2018&#8212;Present</p>
+          <p>An interactive constraint-based layout tool for synthesizing generalizable layouts from few examples. Led by Dr. Nadia Polikarpova.</p>
+      </section>
+      
+      <br />
+      <br />
+      <section id="section3" data-anchor="pubs">
+      <p style="font-family: Arial Bold"> <font size="+2">Publications</font></p>
+        <p style="font-family: Arial Bold"><a href="https://ieeexplore.ieee.org/document/7943467" style="text-decoration:none">Open Set Intrusion Recognition for Fine-Grained Attack Categorization</a></p> 
+        <p>Steve Cruz, Cora Coleman, Ethan M. Rudd, Terrance E. Boult <i>HST'17</i></p>
 
-.sidenav a {
-  height: 25px;
-  line-height: 25px;
-  text-decoration: none;
-  font-size: 18px;
-  color: #FFFFFF;
-  display: block;
-  text-align: center;
-}
+        <p style="font-family: Arial Bold"><a href="https://www.sciencebase.gov/catalog/item/58116450e4b0f497e79a553d" style="text-decoration:none">Saginaw Bay Restoration Assessment Degree Flowlines</a></p>
+        <p>Cora Coleman, Justin Saarinen <i>USGS'16</i></p>
+      </section>
+  </div>
+    </body>
 
-.sidenav a:hover {
-  color: #FD3A0F;
-}
-
-.sidenav2 a {
-  height: 25px;
-  line-height: 25px;
-  text-decoration: none;
-  font-size: 18px;
-  color: #FFFFFF;
-  display: block;
-  text-align: center;
-}
-
-.sidenav2 a:hover {
-  color: #E4F132;
-}
-
-.sidenav3 a {
-  height: 25px;
-  line-height: 25px;
-  text-decoration: none;
-  font-size: 18px;
-  color: #FFFFFF;
-  display: block;
-  text-align: center;
-}
-
-.sidenav3 a:hover {
-  color: #183BF0;
-}
-
-.sidenav4 a {
-  height: 25px;
-  line-height: 25px;
-  text-decoration: none;
-  font-size: 18px;
-  color: #FFFFFF;
-  display: block;
-  text-align: center;
-}
-
-.sidenav4 a:hover {
-  color: #41450C;
-}
-
-.main {
-  margin-left: 140px; /* Same width as the sidebar + left position in px */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-  .sidenav2 {padding-top: 15px;}
-  .sidenav2 a {font-size: 18px;}
-  .sidenav3 {padding-top: 15px;}
-  .sidenav3 a {font-size: 18px;}
-  .sidenav4 {padding-top: 15px;}
-  .sidenav4 a {font-size: 18px;}
-}
-</style>
-</head>
-<body>
-
-<div class="sidenav">
-  <a href="https://algebrot.github.io/index.html">home</a>
-</div>
-
-<div class="sidenav2">
-  <a href="https://algebrot.github.io/about.html">about</a>
-</div>
-
-<div class="sidenav3">
-  <a href="https://algebrot.github.io/reachme.html">reach me</a>
-</div>
-
-<div class="sidenav4">
-  <a href="https://algebrot.github.io/projects.html">projects</a>
-</div>
-
-<div class="main">
-  <center><h3>What's new?</h3>
-  <p>July 5–12 I will be a student volunteer attending the 2019 ESRI User Conference in San Diego, CA.</p>
-  <h3>Research Publications</h3>
-  <p><i>Open Set Intrusion Recognition for Fine-Grained Attack Categorization</i> <br>Steve Cruz, Cora Coleman, Ethan M. Rudd, Terrance E. Boult <br> HST'17 <br><a href="https://ieeexplore.ieee.org/document/7943467">PDF</a></p>
-  <p><i>Saginaw Bay Restoration Assessment Degree Flowlines</i> <br>Cora Coleman, Justin Saarinen <br> USGS'16 <br><a href="https://www.sciencebase.gov/catalog/item/58116450e4b0f497e79a553d">PDF</a></p></center>
-</div>  
-
-</body>
-</html> 
+</html>

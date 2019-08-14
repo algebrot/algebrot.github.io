@@ -9,6 +9,35 @@
   <head>
       <title>ccoleman at ucsd dot edu</title>
       <link rel="stylesheet" href="styles/styles.css" />
+
+    <!--LINK JQUERY-->
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <!--PERSONAL SCRIPT JavaScript-->
+    <script type="text/javascript">
+      $("#canvas").click(function(e){
+        getPosition(e); 
+      });
+
+      var pointSize = 3;
+
+      function getPosition(event){
+          var rect = canvas.getBoundingClientRect();
+          var x = event.clientX - rect.left;
+          var y = event.clientY - rect.top;
+            
+          drawCoordinates(x,y);
+      }
+
+      function drawCoordinates(x,y){	
+          var ctx = document.getElementById("canvas").getContext("2d");
+
+          ctx.fillStyle = "#ff2626"; // Red color
+
+        ctx.beginPath();
+        ctx.arc(x, y, pointSize, 0, Math.PI * 2, true);
+        ctx.fill();
+      }
+     </script>
   </head>
 
   <div class="wrapper"> 
@@ -61,6 +90,7 @@
       </section>
     </body>
   </div>
+  <canvas id="canvas" width="690" height="651"></canvas>
   </br >
   </br >
   </br >
@@ -72,5 +102,5 @@
   </br >
   </br >
   </br >
-  </br >  
+  </br > 
 </html>

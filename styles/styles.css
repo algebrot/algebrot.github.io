@@ -69,6 +69,8 @@ a span {
     width: 100%;
     padding: 10px;
     background: rgba(255,255,255,.8);
+    max-width: 100%;
+    max-height: 300px;
 }
   
 a:hover span {

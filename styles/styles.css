@@ -76,3 +76,8 @@ a span {
 a:hover span {
     display: block
 }
+
+img {
+    max-width: 275px;
+    height: auto;
+}

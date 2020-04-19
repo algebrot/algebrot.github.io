@@ -51,7 +51,7 @@ a:link {
 }
 
 a:visited {
-    color:grey;
+    color:rgb(128, 128, 128);
 }
 
 a:hover {

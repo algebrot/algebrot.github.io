@@ -3,6 +3,8 @@
     margin-right: 180px;
     position: relative;
     margin-left:180px;
+    background-image: url("brick_background.png");
+    background-repeat: repeat;
 }
 
 nav {
@@ -75,9 +77,4 @@ a span {
   
 a:hover span {
     display: block
-}
-
-img {
-    max-width: 275px;
-    height: auto;
 }

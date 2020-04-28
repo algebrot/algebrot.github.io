@@ -3,6 +3,18 @@
     src: url("../Corahand-Regular.ttf");
 }
 
+figure {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+figcaption {
+    margin: 10px 0 0 0;
+    font-family: "Corahand-Regular";
+    text-align: right;
+}
+
 .wrapper {
     width: relative;
     margin-right: 180px;

@@ -24,7 +24,7 @@ nav {
 }
 
 nav a {
-    font-family: "Hand-Regular";
+    font-family: "Corahand-Regular";
     color:black;    
     padding: 2px; 
     display: block;
@@ -46,7 +46,7 @@ nav a.active {
 } 
 
 p {
-    font-family: "Hand-Regular";
+    font-family: "Corahand-Regular";
     font-size:25px;
 }
 

@@ -32,7 +32,7 @@ nav a {
     text-decoration: none;
     margin-right: 4px;
     width: 130%;
-	font-size:40px;
+	font-size:25px;
 }
 
 nav a:hover,
@@ -47,7 +47,7 @@ nav a.active {
 
 p {
     font-family: "Hand-Regular";
-    font-size:40px;
+    font-size:25px;
 }
 
 a,

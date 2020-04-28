@@ -1,10 +1,6 @@
 @font-face {
     font-family: "Hand-Regular";
-    src: url("/Users/corac/GitHub/testsite/Hand-Regular.ttf");
-}
-
-f1 {
-    font-family: "Hand-Regular";
+    src: url('/algebrot.github.io/Hand-Regular.ttf');
 }
 
 .wrapper {

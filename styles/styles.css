@@ -16,19 +16,14 @@ figcaption {
 
 .wrapper {
     width: relative;
-    margin-right: 180px;
+    margin-right: 100px;
     position: relative;
-    margin-left:180px;
+    margin-left:100px;
 }
 
 nav {
-    position: fixed;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    display: block;
-    width: 130px;
-    padding: 22px;
+    margin-right: 100px;
+    margin-left:100px;
     height: 100px;
     z-index: 100;
     color:black;
@@ -37,42 +32,34 @@ nav {
 nav a {
     font-family: "Corahand-Regular";
     color:black;    
-    padding: 2px; 
     display: block;
-    float: left;
+    float: center;
+    position: relative;
     text-decoration: none;
-    margin-right: 4px;
-    width: 130%;
-	font-size:25px;
+    font-size:30px;
 }
 
 nav a:hover,
 nav a.active {
-    color:rgb(9, 9, 9); 
+    color:grey; 
 }
-
-.fixed {
-    position: fixed;
-    top: 0px;
-} 
 
 p {
     font-family: "Corahand-Regular";
-    font-size:25px;
+    font-size:30px;
 }
 
 a,
 a:link {
-    color:black;
-    color:black;
+    color:grey;
 }
 
 a:visited {
-    color:rgb(92, 51, 0);
+    color:brown;
 }
 
 a:hover {
-    color:rgb(9, 9, 9); 
+    color:black; 
 }
 
 a {

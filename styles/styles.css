@@ -4,7 +4,8 @@
 }
 
 figure {
-    margin: auto;
+    margin-right: 0px;
+    margin-left: 0px;
     padding: 0;
     display: inline-block;
 }

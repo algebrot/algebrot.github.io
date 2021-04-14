@@ -3,6 +3,10 @@
     src: url("../Corahand-Regular.ttf");
 }
 
+body {
+    background-color: #fffafa;
+}
+
 figure {
     margin: 0;
     padding: 0;

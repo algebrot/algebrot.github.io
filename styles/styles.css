@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #fffafa;
+    background-color: #000000;
 }
 
 figure {
@@ -30,12 +30,12 @@ nav {
     margin-left: 70px;
     height: 100px;
     z-index: 100;
-    color:black;
+    color:rgb(0, 0, 0);
 }
 
 nav a {
     font-family: "Corahand-Regular";
-    color:black;    
+    color:#e3cea4;    
     display: block;
     float: left;
     position: relative;
@@ -46,7 +46,7 @@ nav a {
 
 nav a:hover,
 nav a.active {
-    color:grey; 
+    color:#e2849b; 
 }
 
 p {
@@ -56,15 +56,15 @@ p {
 
 a,
 a:link {
-    color:grey;
+    color:#e2849b;
 }
 
 a:visited {
-    color:#714214;
+    color:#aa8233;
 }
 
 a:hover {
-    color:grey; 
+    color:#e2849b; 
 }
 
 a {
@@ -77,7 +77,7 @@ a span {
     bottom: 0;
     width: 100%;
     padding: 10px;
-    background: rgba(255,255,255,.8);
+    background: rgb(255, 255, 255);
     max-width: 100%;
     max-height: 300px;
 }

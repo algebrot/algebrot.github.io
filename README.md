@@ -1,2 +1,2 @@
 # algebrot.github.io
-Cora's personal site.
+Personal site in progress.

@@ -20,14 +20,14 @@ figcaption {
 
 .wrapper {
     width: relative;
-    margin-right: 100px;
+    margin-right: 30px;
     position: relative;
-    margin-left:100px;
+    margin-left:30px;
 }
 
 nav {
-    margin-right: 100px;
-    margin-left: 70px;
+    margin-right: 30px;
+    margin-left: 5px;
     height: 100px;
     z-index: 100;
     color:rgb(0, 0, 0);

@@ -24,7 +24,7 @@ nav {
 
 nav a {
     font-family: "Corahand-Regular";
-    color: #e3cea4;    
+    color: #ffffff;    
     display: block;
     float: left;
     position: relative;
@@ -35,7 +35,7 @@ nav a {
 
 nav a:hover,
 nav a.active {
-    color: #e2849b; 
+    color: #0033FF; 
 }
 
 p {
@@ -45,15 +45,15 @@ p {
 
 a,
 a:link {
-    color: #e2849b;
+    color: #ffffff;
 }
 
 a:visited {
-    color: #aa8233;
+    color: #808080;
 }
 
 a:hover {
-    color: #e2849b; 
+    color: #0033FF; 
 }
 
 a {
@@ -84,7 +84,7 @@ a:hover span {
     font-family: "Corahand-Regular";
     float: left;
     display: block;
-    color: #aa8233;  
+    color: #ffffff;  
     text-align: center;
     padding: 15px 15px;
     text-decoration: none;
@@ -93,12 +93,12 @@ a:hover span {
   
   .topnav a:hover {
     background-color: rgb(0, 0, 0);
-    color: #e2849b;
+    color: #0033FF;
   }
   
   .topnav a.active {
     background-color: rgb(0, 0, 0);
-    color: #e2849b;
+    color: #0033FF;
   }
   
   .topnav .icon {
